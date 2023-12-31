@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'rgb_preview = depthai_ros2_wrapper.rgb_preview:main'
         ],
     },
 )
